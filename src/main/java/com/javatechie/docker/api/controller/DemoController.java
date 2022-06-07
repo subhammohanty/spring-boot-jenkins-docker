@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 	
-	@GetMapping("/demo")
+	@GetMapping("/welcome")
 	public String demoMethod() {
 		return "Congratulation !! On Successful Docker integrtion With Jenkins !!!";
 	}
